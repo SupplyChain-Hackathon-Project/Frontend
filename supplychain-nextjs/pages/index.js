@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import bgVideo from '../assets/pexels-rostislav-uzunov-5453622.mp4'
 
 export default function HomePage() {
 
   return (
     <div className='w-full h-screen flex justify-center items-center'>
       <video className='fixed z-[-1] w-full h-full' autoPlay muted loop>
-        <source src={bgVideo} type='video/mp4' />
+        <source src='/pexels-rostislav-uzunov-5453622.mp4' type='video/mp4' />
       </video>
 
       <Link href="/dashboard">
